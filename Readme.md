@@ -9,7 +9,7 @@ pod install
 
 Do the same with directory path /UpdateActivity
 
-Next, setub library and config a localhost.
+Next, setup library and config a localhost.
 
 1.Install Home brew. Open terminal and paste that
 ```
