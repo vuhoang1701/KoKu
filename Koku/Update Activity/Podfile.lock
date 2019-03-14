@@ -1,0 +1,59 @@
+PODS:
+  - Alamofire (4.8.1)
+  - BubbleTransition (3.0.2)
+  - iOSDropDown (0.2.7)
+  - lottie-ios (2.5.2)
+  - MaterialComponents/AnimationTiming (78.0.1)
+  - MaterialComponents/Palettes (78.0.1)
+  - MaterialComponents/private/Application (78.0.1)
+  - MaterialComponents/private/Math (78.0.1)
+  - MaterialComponents/TextFields (78.0.1):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Typography (78.0.1):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - SnapKit (4.0.1)
+  - Socket.IO-Client-Swift (14.0.0):
+    - Starscream (~> 3.0.6)
+  - Starscream (3.0.6)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - BubbleTransition (~> 3.0.0)
+  - iOSDropDown
+  - lottie-ios
+  - MaterialComponents/TextFields
+  - SnapKit (~> 4.0.0)
+  - Socket.IO-Client-Swift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BubbleTransition
+    - iOSDropDown
+    - lottie-ios
+    - MaterialComponents
+    - MDFInternationalization
+    - SnapKit
+    - Socket.IO-Client-Swift
+    - Starscream
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  BubbleTransition: 6bdf7d8af460b5c3696beb0adbf4bcb17176ee11
+  iOSDropDown: 7a4cfc67d5166f319858747b63cd2f7760c4fb4b
+  lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
+  MaterialComponents: 1e1d1a8356bbf2b80f6a0aa32018cda8ac8065a5
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  Socket.IO-Client-Swift: 21e6a8a23a7d367d5ddfab6cbbd3c679cf3c25d6
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+
+PODFILE CHECKSUM: 1b93cbb6e453eba8319a6158ea877e9d2b5fb6fa
+
+COCOAPODS: 1.6.1

@@ -1,0 +1,137 @@
+{
+  "transactions": [
+    {
+      "bankName": "Asia Comercial Bank",
+      "customerName": "Vu Viet Hoang",
+      "customerNumber": "22391425",
+      "exchangeRate": "17160",
+      "fee": "1.5",
+      "fromAmount": "1",
+      "fromCurrency": "SGD",
+      "receivedTime": "2019-03-14T21:24:36.272Z",
+      "sendTime": "2019-03-13T03:12:03.7352Z",
+      "senderId": "1",
+      "status": "Completed",
+      "toAmount": "17160",
+      "toCurrency": "VND",
+      "totalAmount": "2.5",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "fromCurrency": "SGD",
+      "fromAmount": "1",
+      "toCurrency": "VND",
+      "toAmount": "17777",
+      "exchangeRate": "17160",
+      "fee": "1.5",
+      "totalAmount": "2.5",
+      "customerName": "Vu Viet Hoang",
+      "customerNumber": "22391425",
+      "bankName": "Asia Comercial Bank",
+      "status": "Pending",
+      "senderId": "1",
+      "sendTime": "2019-03-13T03:12:03.731Z",
+      "receivedTime": ""
+    },
+    {
+      "bankName": "Hoang Vu Bank",
+      "customerName": "Testing socket",
+      "customerNumber": "1212121212121212",
+      "exchangeRate": "0.737651",
+      "fee": "35.35566",
+      "fromAmount": "964.6443",
+      "fromCurrency": "SGD",
+      "receivedTime": "2019-03-14T18:51:59.952Z",
+      "sendTime": "2019-03-14T18:51:59.916Z",
+      "senderId": "1",
+      "status": "Completed",
+      "toAmount": "711.5709",
+      "toCurrency": "USD",
+      "totalAmount": "1000",
+      "id": 3
+    },
+    {
+      "bankName": "Helllo maays cung",
+      "customerName": "Hoang Vu 34f2",
+      "customerNumber": "111111",
+      "exchangeRate": "0.737675",
+      "fee": "35.35561",
+      "fromAmount": "964.6444",
+      "fromCurrency": "SGD",
+      "receivedTime": "2019-03-14T21:24:21.104Z",
+      "sendTime": "2019-03-14T18:53:28.308Z",
+      "senderId": "1",
+      "status": "Completed",
+      "toAmount": "711.5941",
+      "toCurrency": "USD",
+      "totalAmount": "1000",
+      "id": 4
+    },
+    {
+      "bankName": "Asian Comercial Bank",
+      "customerName": "Hoang Vu Receipent",
+      "customerNumber": "22391425",
+      "exchangeRate": "5.109262",
+      "fee": "3401.351",
+      "fromAmount": "96598.65",
+      "fromCurrency": "BND",
+      "sendTime": "2019-03-14T21:42:31.915Z",
+      "senderId": "1",
+      "status": "Completed",
+      "toAmount": "493547.8",
+      "toCurrency": "BOB",
+      "totalAmount": "100000",
+      "receivedTime": "2019-03-14T21:42:31.931Z",
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "country": "Peru",
+      "email": "vuhoang1701@gmail.com",
+      "firstName": "Hoang",
+      "lastName": "Vu Viet",
+      "password": "Vuhoang1993",
+      "phoneNumber": "+84935630505",
+      "role": "Personal",
+      "id": 1
+    },
+    {
+      "country": "United States of America",
+      "email": "vuhoang1703@gmail.com",
+      "firstName": "Hoang",
+      "lastName": "Vu",
+      "password": "Vuhoang1993",
+      "phoneNumber": "0935630505",
+      "role": "Business",
+      "id": 2
+    },
+    {
+      "email": "vuhoang1704@gmail.com",
+      "password": "Vuhoang1993",
+      "role": "Business",
+      "id": 3
+    },
+    {
+      "country": "Vietnam",
+      "email": "vuhoang1705@gmail.com",
+      "firstName": "Jackie",
+      "lastName": "Vu",
+      "password": "Vuhoang1993",
+      "phoneNumber": "0935630505",
+      "role": "Business",
+      "id": 4
+    },
+    {
+      "country": "Taiwan",
+      "email": "vuhoang1700@gmail.com",
+      "firstName": "Hoang",
+      "lastName": "Pham",
+      "password": "Vuhoang1993",
+      "phoneNumber": "01234567756",
+      "role": "Business",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+framework module Pods_Update_ActivityUITests {
+  umbrella header "Pods-Update ActivityUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Update Activity"
+      name = "Update Activity">
+      <Group
+         location = "group:Update ActivityUITests"
+         name = "Update ActivityUITests">
+         <FileRef
+            location = "group:Update_ActivityUITests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Update ActivityTests"
+         name = "Update ActivityTests">
+         <FileRef
+            location = "group:Update_ActivityTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Update Activity.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:Pods"
+         name = "Pods">
+         <FileRef
+            location = "group:Pods.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:Alamofire"
+            name = "Alamofire">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <Group
+               location = "group:Source"
+               name = "Source">
+               <FileRef
+                  location = "group:TaskDelegate.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:MultipartFormData.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:NetworkReachabilityManager.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Timeline.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:DispatchQueue+Alamofire.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Result.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ParameterEncoding.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:AFError.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Validation.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Notifications.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Response.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Alamofire.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Request.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:SessionManager.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ResponseSerialization.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ServerTrustPolicy.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:SessionDelegate.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Socket.IO-Client-Swift"
+            name = "Socket.IO-Client-Swift">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <Group
+               location = "group:Source"
+               name = "Source">
+               <Group
+                  location = "group:SocketIO"
+                  name = "SocketIO">
+                  <Group
+                     location = "group:Util"
+                     name = "Util">
+                     <FileRef
+                        location = "group:SocketStringReader.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SocketLogger.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SocketExtensions.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SSLSecurity.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SocketTypes.swift">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Parse"
+                     name = "Parse">
+                     <FileRef
+                        location = "group:SocketParsable.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SocketPacket.swift">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Manager"
+                     name = "Manager">
+                     <FileRef
+                        location = "group:SocketManagerSpec.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SocketManager.swift">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Engine"
+                     name = "Engine">
+                     <FileRef
+                        location = "group:SocketEngineClient.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SocketEngineWebsocket.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SocketEnginePollable.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SocketEngineSpec.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SocketEnginePacketType.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SocketEngine.swift">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Client"
+                     name = "Client">
+                     <FileRef
+                        location = "group:SocketIOClientConfiguration.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SocketAnyEvent.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SocketIOClient.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SocketIOClientOption.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SocketEventHandler.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SocketRawView.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SocketIOClientSpec.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SocketIOStatus.swift">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Ack"
+                     name = "Ack">
+                     <FileRef
+                        location = "group:SocketAckManager.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SocketAckEmitter.swift">
+                     </FileRef>
+                  </Group>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:iOSDropDown"
+            name = "iOSDropDown">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <Group
+               location = "group:iOSDropDown"
+               name = "iOSDropDown">
+               <Group
+                  location = "group:Classes"
+                  name = "Classes">
+                  <FileRef
+                     location = "group:iOSDropDown.swift">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Target Support Files"
+            name = "Target Support Files">
+            <Group
+               location = "group:Alamofire"
+               name = "Alamofire">
+               <FileRef
+                  location = "group:Alamofire-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Alamofire-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:Alamofire.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Alamofire-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Alamofire.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:Alamofire-prefix.pch">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Socket.IO-Client-Swift"
+               name = "Socket.IO-Client-Swift">
+               <FileRef
+                  location = "group:Socket.IO-Client-Swift.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:Socket.IO-Client-Swift-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Socket.IO-Client-Swift.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Socket.IO-Client-Swift-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:Socket.IO-Client-Swift-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:Socket.IO-Client-Swift-umbrella.h">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:iOSDropDown"
+               name = "iOSDropDown">
+               <FileRef
+                  location = "group:iOSDropDown-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:iOSDropDown-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:iOSDropDown-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:iOSDropDown.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:iOSDropDown.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:iOSDropDown-prefix.pch">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Pods-Update ActivityUITests"
+               name = "Pods-Update ActivityUITests">
+               <FileRef
+                  location = "group:Pods-Update ActivityUITests-acknowledgements.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Update ActivityUITests.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Update ActivityUITests.debug.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Update ActivityUITests.release.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Update ActivityUITests-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Update ActivityUITests-acknowledgements.markdown">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Update ActivityUITests-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Update ActivityUITests-Info.plist">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Pods-Update ActivityTests"
+               name = "Pods-Update ActivityTests">
+               <FileRef
+                  location = "group:Pods-Update ActivityTests.debug.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Update ActivityTests-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Update ActivityTests.release.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Update ActivityTests-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Update ActivityTests-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Update ActivityTests.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Update ActivityTests-acknowledgements.markdown">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Update ActivityTests-acknowledgements.plist">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:MDFInternationalization"
+               name = "MDFInternationalization">
+               <FileRef
+                  location = "group:MDFInternationalization-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:MDFInternationalization.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:MDFInternationalization-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:MDFInternationalization-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:MDFInternationalization.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:MDFInternationalization-umbrella.h">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:SnapKit"
+               name = "SnapKit">
+               <FileRef
+                  location = "group:SnapKit-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:SnapKit-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:SnapKit.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:SnapKit.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:SnapKit-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SnapKit-dummy.m">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Pods-Update Activity"
+               name = "Pods-Update Activity">
+               <FileRef
+                  location = "group:Pods-Update Activity-acknowledgements.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Update Activity-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Update Activity-acknowledgements.markdown">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Update Activity.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Update Activity-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Update Activity-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Update Activity.debug.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Update Activity-frameworks.sh">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-Update Activity.release.xcconfig">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:BubbleTransition"
+               name = "BubbleTransition">
+               <FileRef
+                  location = "group:BubbleTransition-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:BubbleTransition-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:BubbleTransition-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:BubbleTransition.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:BubbleTransition.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:BubbleTransition-Info.plist">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Starscream"
+               name = "Starscream">
+               <FileRef
+                  location = "group:Starscream-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Starscream.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:Starscream-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:Starscream-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:Starscream.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Starscream-umbrella.h">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:MaterialComponents"
+               name = "MaterialComponents">
+               <FileRef
+                  location = "group:MaterialComponents-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MaterialComponents-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:MaterialComponents.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:MaterialComponents.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:MaterialComponents-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:MaterialComponents-dummy.m">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:lottie-ios"
+               name = "lottie-ios">
+               <FileRef
+                  location = "group:lottie-ios-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:lottie-ios-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:lottie-ios.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:lottie-ios-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:lottie-ios-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:lottie-ios.xcconfig">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:Manifest.lock">
+         </FileRef>
+         <Group
+            location = "group:MDFInternationalization"
+            name = "MDFInternationalization">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <Group
+               location = "group:Sources"
+               name = "Sources">
+               <FileRef
+                  location = "group:UIImage+MaterialRTL.m">
+               </FileRef>
+               <FileRef
+                  location = "group:NSLocale+MaterialRTL.m">
+               </FileRef>
+               <FileRef
+                  location = "group:MDFInternationalization.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSString+MaterialBidi.m">
+               </FileRef>
+               <FileRef
+                  location = "group:MDFRTL.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UIView+MaterialRTL.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSLocale+MaterialRTL.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIImage+MaterialRTL.h">
+               </FileRef>
+               <FileRef
+                  location = "group:NSString+MaterialBidi.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIView+MaterialRTL.m">
+               </FileRef>
+               <FileRef
+                  location = "group:MDFRTL.h">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Local Podspecs"
+            name = "Local Podspecs">
+         </Group>
+         <Group
+            location = "group:SnapKit"
+            name = "SnapKit">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <Group
+               location = "group:Source"
+               name = "Source">
+               <FileRef
+                  location = "group:ConstraintMultiplierTarget.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:LayoutConstraintItem.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintDescription.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintMakerPriortizable.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintAttributes.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintViewDSL.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintPriorityTarget.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintInsets.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintMakerFinalizable.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintDSL.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintMakerExtendable.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintPriority.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintInsetTarget.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintConfig.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:UILayoutSupport+Extensions.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintView.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintLayoutGuide.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintLayoutSupport.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Typealiases.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintConstantTarget.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintOffsetTarget.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintMakerEditable.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintMaker.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintRelation.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintLayoutGuideDSL.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintView+Extensions.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintItem.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Constraint.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Debugging.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintRelatableTarget.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:LayoutConstraint.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintLayoutGuide+Extensions.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintLayoutSupportDSL.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConstraintMakerRelatable.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:BubbleTransition"
+            name = "BubbleTransition">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <Group
+               location = "group:Source"
+               name = "Source">
+               <FileRef
+                  location = "group:BubbleTransition.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Headers"
+            name = "Headers">
+         </Group>
+         <Group
+            location = "group:Starscream"
+            name = "Starscream">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <Group
+               location = "group:Sources"
+               name = "Sources">
+               <Group
+                  location = "group:Starscream"
+                  name = "Starscream">
+                  <FileRef
+                     location = "group:SSLClientCertificate.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Compression.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SSLSecurity.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:WebSocket.swift">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+         <Group
+            location = "group:MaterialComponents"
+            name = "MaterialComponents">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <Group
+               location = "group:components"
+               name = "components">
+               <Group
+                  location = "group:TextFields"
+                  name = "TextFields">
+                  <Group
+                     location = "group:src"
+                     name = "src">
+                     <FileRef
+                        location = "group:MDCTextInputControllerOutlinedTextArea.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextInput.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextInputControllerUnderline.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextInputControllerFullWidth.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextInputControllerBase.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextInputControllerOutlined.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextInputControllerLegacyFullWidth.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCIntrinsicHeightTextView.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextInputBorderView.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextInputControllerFilled.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextField.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCMultilineTextField.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextInputController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextInputControllerLegacyDefault.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextInputUnderlineView.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextInputControllerUnderline.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextInputControllerFloatingPlaceholder.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextInputControllerOutlinedTextArea.m">
+                     </FileRef>
+                     <Group
+                        location = "group:private"
+                        name = "private">
+                        <FileRef
+                           location = "group:MDCTextInputAllCharactersCounter.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:MDCTextInputCommonFundament.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:MDCTextField+Testing.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:MDCTextInputControllerBase+Subclassing.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:MDCTextInputCommonFundament.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:MDCTextInputArt.h">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:MDCMultilineTextInputDelegate.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextInputBorderView.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCIntrinsicHeightTextView.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextInputControllerLegacyFullWidth.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextInputControllerOutlined.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextInputControllerBase.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextInputControllerFullWidth.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextFieldPositioningDelegate.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCMultilineTextField.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextField.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextInputControllerFilled.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextInputUnderlineView.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextInputControllerLegacyDefault.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTextInputCharacterCounter.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MaterialTextFields.h">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:private"
+                  name = "private">
+                  <Group
+                     location = "group:Math"
+                     name = "Math">
+                     <Group
+                        location = "group:src"
+                        name = "src">
+                        <FileRef
+                           location = "group:MDCMath.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:MaterialMath.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:MaterialMathDummy.m">
+                        </FileRef>
+                     </Group>
+                  </Group>
+                  <Group
+                     location = "group:Application"
+                     name = "Application">
+                     <Group
+                        location = "group:src"
+                        name = "src">
+                        <FileRef
+                           location = "group:UIApplication+AppExtensions.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:MaterialApplication.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:UIApplication+AppExtensions.h">
+                        </FileRef>
+                     </Group>
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:Typography"
+                  name = "Typography">
+                  <Group
+                     location = "group:src"
+                     name = "src">
+                     <FileRef
+                        location = "group:MDCTypography.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIFontDescriptor+MaterialTypography.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MaterialTypography.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIFont+MaterialSimpleEquality.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIFont+MaterialTypography.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCTypography.m">
+                     </FileRef>
+                     <Group
+                        location = "group:private"
+                        name = "private">
+                        <FileRef
+                           location = "group:UIFont+MaterialTypographyPrivate.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:MDCFontTraits.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:UIFont+MaterialTypographyPrivate.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:MDCFontTraits.h">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:UIFont+MaterialSimpleEquality.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIFontDescriptor+MaterialTypography.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIFont+MaterialTypography.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MDCFontTextStyle.h">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:AnimationTiming"
+                  name = "AnimationTiming">
+                  <Group
+                     location = "group:src"
+                     name = "src">
+                     <FileRef
+                        location = "group:CAMediaTimingFunction+MDCAnimationTiming.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIView+MDCTimingFunction.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CAMediaTimingFunction+MDCAnimationTiming.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MaterialAnimationTiming.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIView+MDCTimingFunction.m">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:Palettes"
+                  name = "Palettes">
+                  <Group
+                     location = "group:src"
+                     name = "src">
+                     <FileRef
+                        location = "group:MDCPalettes.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MaterialPalettes.h">
+                     </FileRef>
+                     <Group
+                        location = "group:private"
+                        name = "private">
+                        <FileRef
+                           location = "group:MDCPaletteExpansions.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:MDCPaletteNames.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:MDCPaletteNames.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:MDCPaletteExpansions.m">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:MDCPalettes.m">
+                     </FileRef>
+                  </Group>
+               </Group>
+            </Group>
+         </Group>
+         <Group
+            location = "group:lottie-ios"
+            name = "lottie-ios">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <Group
+               location = "group:Lottie"
+               name = "Lottie">
+            </Group>
+            <Group
+               location = "group:lottie-ios"
+               name = "lottie-ios">
+               <Group
+                  location = "group:Classes"
+                  name = "Classes">
+                  <Group
+                     location = "group:RenderSystem"
+                     name = "RenderSystem">
+                     <FileRef
+                        location = "group:LOTRenderNode.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTAnimatorNode.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTRenderNode.h">
+                     </FileRef>
+                     <Group
+                        location = "group:ManipulatorNodes"
+                        name = "ManipulatorNodes">
+                        <FileRef
+                           location = "group:LOTTrimPathNode.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTTrimPathNode.m">
+                        </FileRef>
+                     </Group>
+                     <Group
+                        location = "group:InterpolatorNodes"
+                        name = "InterpolatorNodes">
+                        <FileRef
+                           location = "group:LOTColorInterpolator.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTPathInterpolator.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTSizeInterpolator.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTValueInterpolator.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTPointInterpolator.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTNumberInterpolator.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTTransformInterpolator.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTArrayInterpolator.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTColorInterpolator.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTSizeInterpolator.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTPathInterpolator.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTPointInterpolator.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTValueInterpolator.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTTransformInterpolator.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTArrayInterpolator.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTNumberInterpolator.m">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:LOTAnimatorNode.m">
+                     </FileRef>
+                     <Group
+                        location = "group:AnimatorNodes"
+                        name = "AnimatorNodes">
+                        <FileRef
+                           location = "group:LOTPathAnimator.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTPolystarAnimator.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTPolygonAnimator.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTRoundedRectAnimator.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTCircleAnimator.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTPolystarAnimator.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTPathAnimator.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTCircleAnimator.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTRoundedRectAnimator.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTPolygonAnimator.h">
+                        </FileRef>
+                     </Group>
+                     <Group
+                        location = "group:RenderNodes"
+                        name = "RenderNodes">
+                        <FileRef
+                           location = "group:LOTRenderGroup.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTGradientFillRender.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTFillRenderer.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTStrokeRenderer.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTRepeaterRenderer.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTRenderGroup.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTStrokeRenderer.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTFillRenderer.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTGradientFillRender.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LOTRepeaterRenderer.m">
+                        </FileRef>
+                     </Group>
+                  </Group>
+                  <Group
+                     location = "group:MacCompatibility"
+                     name = "MacCompatibility">
+                     <FileRef
+                        location = "group:UIColor.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIBezierPath.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CALayer+Compat.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:NSValue+Compat.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIColor.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTPlatformCompat.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIBezierPath.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:NSValue+Compat.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CALayer+Compat.m">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Models"
+                     name = "Models">
+                     <FileRef
+                        location = "group:LOTMask.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTLayer.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTAssetGroup.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTShapeRectangle.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTShapeRepeater.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTAsset.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTShapeCircle.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTLayerGroup.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTShapeStar.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTShapeTrimPath.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTShapeGroup.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTShapePath.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTShapeStroke.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTShapeGradientFill.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTShapeFill.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTShapeTransform.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTAsset.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTModels.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTShapeRepeater.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTAssetGroup.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTShapeRectangle.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTLayer.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTMask.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTShapeStar.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTLayerGroup.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTShapeCircle.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTShapePath.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTShapeGroup.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTShapeTrimPath.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTShapeFill.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTShapeTransform.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTShapeGradientFill.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTShapeStroke.m">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Extensions"
+                     name = "Extensions">
+                     <FileRef
+                        location = "group:LOTHelpers.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTRadialGradientLayer.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CGGeometry+LOTAdditions.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTBezierPath.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIColor+Expanded.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTRadialGradientLayer.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CGGeometry+LOTAdditions.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTBezierPath.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIColor+Expanded.m">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Private"
+                     name = "Private">
+                     <FileRef
+                        location = "group:LOTAnimationCache.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTComposition.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTValueCallback.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTBlockCallback.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTAnimationView.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTAnimationTransitionController.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTAnimationView_Internal.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTKeypath.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTCacheProvider.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTAnimatedControl.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTInterpolatorCallback.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTAnimatedSwitch.m">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:AnimatableProperties"
+                     name = "AnimatableProperties">
+                     <FileRef
+                        location = "group:LOTKeyframe.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTBezierData.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTKeyframe.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTBezierData.h">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:AnimatableLayers"
+                     name = "AnimatableLayers">
+                     <FileRef
+                        location = "group:LOTLayerContainer.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTCompositionContainer.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTMaskContainer.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTLayerContainer.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTCompositionContainer.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTMaskContainer.m">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:PublicHeaders"
+                     name = "PublicHeaders">
+                     <FileRef
+                        location = "group:LOTValueDelegate.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTAnimatedControl.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTCacheProvider.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTKeypath.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTInterpolatorCallback.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTAnimatedSwitch.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTAnimationCache.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Lottie.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTComposition.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTAnimationTransitionController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTAnimationView.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTAnimationView_Compat.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTValueCallback.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LOTBlockCallback.h">
+                     </FileRef>
+                  </Group>
+               </Group>
+            </Group>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:Podfile">
+      </FileRef>
+      <FileRef
+         location = "group:Update Activity.xcworkspace">
+      </FileRef>
+      <FileRef
+         location = "group:Podfile.lock">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Koku.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
