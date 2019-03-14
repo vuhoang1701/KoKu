@@ -11,7 +11,7 @@ Do the same with directory path /UpdateActivity
 
 Next, setup library and config a localhost.
 
-1.Install Home brew. Open terminal and paste that
+1. Install Home brew. Open terminal and paste that
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -55,4 +55,4 @@ node server.js
 
 ```
 
-We have localhost with port 3000: http://localhost:3000, which support mocked API. Now we can start to using application.
+We have localhost with port 3000: http://localhost:3000, which supports mocked API. Now we can start to use application.
