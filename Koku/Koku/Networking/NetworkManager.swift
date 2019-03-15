@@ -192,36 +192,8 @@ class NetworkManager {
                           "bankName": transaction.bankName,
                           "sendTime": transaction.sendTime!] as [String : Any]
         self.request(transactionURL, method: .post, parameters: parameters, success: { (jsonData) in
-            if let jsonDictionary = jsonData as? [NSObject : Any] as NSDictionary?
-            {
-                
-//                let id = jsonDictionary["id"] as? Int
-//                let fromAmount = jsonDictionary["fromAmount"] as? Float
-//                let fromCurrency = jsonDictionary["fromCurrency"] as? String
-//                let toAmount = jsonDictionary["toAmount"] as? Float
-//                let toCurrency = jsonDictionary["toCurrency"] as? String
-//                let exchangeRate = jsonDictionary["exchangeRate"] as? Float
-//                let fee = jsonDictionary["fee"] as? Float
-//                let totalAmount = jsonDictionary["totalAmount"] as? Float
-//                let customerName = jsonDictionary["customerName"] as? String
-//                let customerNumber = jsonDictionary["customerNumber"] as? String
-//                let bankName = jsonDictionary["bankName"] as? String
-//                let status = jsonDictionary["status"] as? String
-//                let senderId = jsonDictionary["senderId"] as? Int
-//                let sendTime = jsonDictionary["sendTime"] as? String
-//                let receivedTime = jsonDictionary["receivedTime"] as? String
-//
-//                let transactionModel = TransactionModel(id: id!, fromcurrency: fromCurrency!, fromamount: fromAmount!, tocurrency: toCurrency!, toamount: toAmount!, exchangerate: exchangeRate!, fee: fee!, totalamount: totalAmount!, customername: customerName!, customernumber: customerNumber!, bankname: bankName!, status: status!, senderid: senderId!)
-//                transactionModel.sendTime = sendTime
-//                transactionModel.receivedTime = receivedTime
-//
                 success()
-            }
-            else
-            {
-                failure(NSError(domain: "Data is not valid", code: 404, userInfo: nil))
-                
-            }
+  
         }) { (error) in
             failure(error)
         }

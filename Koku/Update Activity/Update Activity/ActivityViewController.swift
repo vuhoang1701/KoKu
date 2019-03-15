@@ -12,25 +12,36 @@ class ActivityViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     var arrayTransactions: [ActivityTableViewCellContent] = []
-    
+    private let refreshControl = UIRefreshControl()
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         tableView.dataSource = self
         tableView.delegate = self
         tableView.tableFooterView = UIView()
         tableView.estimatedRowHeight = 130
         tableView.rowHeight = UITableView.automaticDimension
+        if #available(iOS 10.0, *) {
+            tableView.refreshControl = refreshControl
+        } else {
+            tableView.addSubview(refreshControl)
+        }
+        
+        // Configure Refresh Control
+        refreshControl.tintColor = UIColor.colorWithHexString(hexString: "558FA6")
+        refreshControl.addTarget(self, action: #selector(self.reloadTableView(_:)), for: .valueChanged)
+        
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             self.loadData()
         }
-       
-    
+      
+        
         // Register to receive notification to reload
         NotificationCenter.default.addObserver(self, selector: #selector(self.reloadTableView(_:)), name: NSNotification.Name(rawValue: "reloadActivityList"), object: nil)
-       
+        
     }
     
-
+    
     //Load data transactions of user
     func loadData()
     {
@@ -52,18 +63,22 @@ class ActivityViewController: UIViewController {
                     let transactionItem = TransactionModel(id: dataTransaction["id"] as? Int, fromcurrency: fromCurrency, fromamount: fromAmount.floatValue, tocurrency: toCurrency, toamount: toAmount.floatValue, exchangerate: exchangeRate.floatValue, fee: fee.floatValue, totalamount: totalAmount.floatValue, customername: customerName, customernumber: customerNumber, bankname: bankName, status: status, senderid: Int(senderId)!, sendtime: dataTransaction["sendTime"] as? String, receivedtime: dataTransaction["receivedTime"] as? String)
                     let contentTransactionCell = ActivityTableViewCellContent(datamodel: transactionItem)
                     self.arrayTransactions.append(contentTransactionCell)
-                  
-                   
+                    
+                    
                 }
                 
             }
             DispatchQueue.main.async {
+                self.refreshControl.endRefreshing()
                 self.tableView.reloadData()
+               
             }
         }) { (error) in
-           print(error)
+            self.refreshControl.endRefreshing()
+            print(error)
         }
     }
+    
     
     // handle notification
     @objc func reloadTableView(_ notification: NSNotification) {

@@ -3,6 +3,20 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "CustomTabBarController.setupMiddleButton():CustomTabBarController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.tabBar.bounds.minY">
+            </PersistentString>
+            <PersistentString
+               value = "self.tabBar.frame">
+            </PersistentString>
+            <PersistentString
+               value = " self.view.bounds">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "closure #1 in static NetworkManager.updateAccountDetail(userModel:success:failure:):NetworkManager.swift">
          <PersistentStrings>
             <PersistentString

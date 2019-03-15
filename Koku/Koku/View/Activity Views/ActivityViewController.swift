@@ -12,7 +12,7 @@ class ActivityViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     var arrayTransactions: [ActivityTableViewCellContent] = []
-    
+    private let refreshControl = UIRefreshControl()
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
@@ -20,7 +20,20 @@ class ActivityViewController: UIViewController {
         tableView.tableFooterView = UIView()
         tableView.estimatedRowHeight = 130
         tableView.rowHeight = UITableView.automaticDimension
-        loadData()
+        if #available(iOS 10.0, *) {
+            tableView.refreshControl = refreshControl
+        } else {
+            tableView.addSubview(refreshControl)
+        }
+        
+        // Configure Refresh Control
+        refreshControl.tintColor = UIColor.colorWithHexString(hexString: "558FA6")
+        refreshControl.addTarget(self, action: #selector(self.reloadTableView(_:)), for: .valueChanged)
+        
+      
+        self.loadData()
+        
+
     
         // Register to receive notification to reload
         NotificationCenter.default.addObserver(self, selector: #selector(self.reloadTableView(_:)), name: NSNotification.Name(rawValue: "reloadActivityList"), object: nil)
@@ -32,6 +45,10 @@ class ActivityViewController: UIViewController {
     func loadData()
     {
         NetworkManager.getListTransactions(success: { (arrayOfDictionary) in
+            if(arrayOfDictionary.count == 0)
+            {
+                return
+            }
             let formatter = DateFormatter()
             formatter.dateFormat = "dd MMM, yyyy HH:mm a"
             
@@ -55,12 +72,15 @@ class ActivityViewController: UIViewController {
                 
             }
             DispatchQueue.main.async {
+                self.refreshControl.endRefreshing()
                 self.tableView.reloadData()
             }
         }) { (error) in
            print(error)
+            self.refreshControl.endRefreshing()
         }
     }
+    
     
     // handle notification
     @objc func reloadTableView(_ notification: NSNotification) {

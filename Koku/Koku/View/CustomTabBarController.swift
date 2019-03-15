@@ -12,16 +12,19 @@ import BubbleTransition
 class CustomTabBarController: UITabBarController {
 
     let transition = BubbleTransition()
-    
+    var menuButton: UIButton!
     override func viewDidLoad() { // Called when tab bar loads
         super.viewDidLoad()
-        self.setupMiddleButton() // Sets up button
+        // Sets up button
         connectSocket()
     }
     
     func setupMiddleButton() {
-
-        let coverCenterTabbarItemView = UIView(frame: CGRect(x: 0, y: 0, width: self.view.bounds.width/3, height: 45))
+        var tabbarHeight: CGFloat = 0
+     
+        tabbarHeight = self.tabBar.frame.size.height
+        
+        let coverCenterTabbarItemView = UIView(frame: CGRect(x: 0, y: 0, width: self.view.bounds.width/3, height: tabbarHeight))
         var newFrame = coverCenterTabbarItemView.frame
         newFrame.origin.y = self.view.bounds.height - newFrame.height
         newFrame.origin.x = self.view.bounds.width/2 - newFrame.size.width/2
@@ -29,9 +32,10 @@ class CustomTabBarController: UITabBarController {
         coverCenterTabbarItemView.frame = newFrame
         self.view.addSubview(coverCenterTabbarItemView)
         
-        let menuButton = UIButton(frame: CGRect(x: 0, y: 0, width: 45, height: 45))
+        menuButton = UIButton(frame: CGRect(x: 0, y: 0, width: 45, height: 45))
         var menuButtonFrame = menuButton.frame
-        menuButtonFrame.origin.y = self.view.bounds.height - menuButtonFrame.height - 15
+        menuButtonFrame = menuButton.frame
+        menuButtonFrame.origin.y = self.view.bounds.height - tabbarHeight - 15
         menuButtonFrame.origin.x = self.view.bounds.width/2 - menuButtonFrame.size.width/2
         menuButton.frame = menuButtonFrame
         menuButton.backgroundColor = UIColor.colorWithHexString(hexString: "558FA6")
@@ -41,7 +45,7 @@ class CustomTabBarController: UITabBarController {
         self.view.addSubview(menuButton)
       
         
-        let coverViewButton = UIButton(frame: CGRect(x: 0, y: 0, width: 45, height: 60))
+        let coverViewButton = UIButton(frame: CGRect(x: 0, y: 0, width: 45, height: tabbarHeight + 15))
         var coverViewButtonFrame = coverViewButton.frame
         coverViewButtonFrame.origin.y = self.view.bounds.height - coverViewButtonFrame.height
         coverViewButtonFrame.origin.x = self.view.bounds.width/2 - coverViewButtonFrame.size.width/2
@@ -52,9 +56,14 @@ class CustomTabBarController: UITabBarController {
      
         
         self.view.addSubview(coverViewButton)
-        
-        
-        self.view.layoutIfNeeded()
+
+    }
+    
+    override func viewDidLayoutSubviews() {
+        if(menuButton == nil)
+        {
+            self.setupMiddleButton()
+        }
     }
     
     func connectSocket()
