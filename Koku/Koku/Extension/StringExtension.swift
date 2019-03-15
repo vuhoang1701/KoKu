@@ -42,6 +42,8 @@ extension String {
         var stringNumber = "\(float)"
         let numberFormatter = NumberFormatter()
         numberFormatter.numberStyle = .decimal
+        numberFormatter.minimumFractionDigits = 0
+        numberFormatter.maximumFractionDigits = 5
         if let formattedNumber = numberFormatter.string(from: NSNumber(value:float))
         {
             stringNumber = formattedNumber

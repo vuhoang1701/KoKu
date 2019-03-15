@@ -92,10 +92,11 @@
       "fromCurrency": "BRL",
       "sendTime": "2019-03-15T08:11:38.308Z",
       "senderId": "1",
-      "status": "Error",
+      "status": "Completed",
       "toAmount": "250.4382",
       "toCurrency": "USD",
       "totalAmount": "1000",
+      "receivedTime": "2019-03-15T14:30:04.375Z",
       "id": 6
     },
     {
@@ -122,6 +123,7 @@
       "fee": "34670.6",
       "fromAmount": "965329.4",
       "fromCurrency": "CLP",
+      "receivedTime": "2019-03-15T14:28:38.270Z",
       "sendTime": "2019-03-15T08:22:04.278Z",
       "senderId": "1",
       "status": "Pending",
@@ -140,11 +142,28 @@
       "fromCurrency": "SGD",
       "sendTime": "2019-03-15T08:35:52.421Z",
       "senderId": "3",
-      "status": "Cancel",
+      "status": "Completed",
       "toAmount": "712.4229",
       "toCurrency": "USD",
       "totalAmount": "1000",
+      "receivedTime": "2019-03-15T14:28:18.629Z",
       "id": 9
+    },
+    {
+      "bankName": "Asian bank",
+      "customerName": "Khanh Dang",
+      "customerNumber": "5345345345",
+      "exchangeRate": "4.311274e-05",
+      "fee": "57195",
+      "fromAmount": "942805",
+      "fromCurrency": "VND",
+      "sendTime": "2019-03-15T14:31:01.099Z",
+      "senderId": "1",
+      "status": "Pending",
+      "toAmount": "40.64691",
+      "toCurrency": "USD",
+      "totalAmount": "1000000",
+      "id": 10
     }
   ],
   "users": [

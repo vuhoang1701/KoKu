@@ -159,6 +159,8 @@ class ActivityTableViewCell: UITableViewCell {
         {
             let numberFormatter = NumberFormatter()
             numberFormatter.numberStyle = .decimal
+            numberFormatter.minimumFractionDigits = 0
+            numberFormatter.maximumFractionDigits = 5
             let formattedNumber = numberFormatter.string(from: NSNumber(value:rate))
             exchangeRateLbel.text = "Rate : \(String(describing: formattedNumber!)) "
             

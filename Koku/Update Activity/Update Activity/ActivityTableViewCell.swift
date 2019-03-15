@@ -135,6 +135,8 @@ class ActivityTableViewCell: UITableViewCell {
         {
             let numberFormatter = NumberFormatter()
             numberFormatter.numberStyle = .decimal
+            numberFormatter.minimumFractionDigits = 0
+            numberFormatter.maximumFractionDigits = 5
             let formattedNumber = numberFormatter.string(from: NSNumber(value:feeAmount))
             feeLbel.text = "Fee: \(String(describing: (content.dataModel?.fromCurrencySymbol)!))\(String(describing: formattedNumber!)) \(String(describing: (content.dataModel?.fromCurrency)!))"
             
