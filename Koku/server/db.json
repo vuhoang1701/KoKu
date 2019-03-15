@@ -196,6 +196,16 @@
       "phoneNumber": "0935630505",
       "role": "Personal",
       "id": 3
+    },
+    {
+      "country": "Belgium",
+      "email": "vuhoang1704@gmail.com",
+      "firstName": "Tung ",
+      "lastName": "Huynh",
+      "password": "Vuhoang1993",
+      "phoneNumber": "09453234523",
+      "role": "Business",
+      "id": 4
     }
   ]
 }

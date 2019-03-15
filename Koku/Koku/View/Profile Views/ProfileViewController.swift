@@ -34,7 +34,7 @@ class ProfileViewController: UIViewController {
         if let firstName = UserSetting.sharedInstance.currentUser?.firstName, let lastName = UserSetting.sharedInstance.currentUser?.lastName
         {
             
-            fullNameLbel.text = firstName + " " + lastName
+            fullNameLbel.text = firstName.trimmingCharacters(in: .whitespaces) + " " + lastName.trimmingCharacters(in: .whitespaces)
             fullNameDetailLbel.text = fullNameLbel.text
             if let fullname = fullNameLbel.text
             {
