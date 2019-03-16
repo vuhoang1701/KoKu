@@ -181,6 +181,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let userDefaults = UserDefaults.standard
         userDefaults.removeObject(forKey: "currentUser")
         userDefaults.synchronize()
+        SocketIOManager.sharedInstance.closeConnection()
+        
+        
     }
 
 }
